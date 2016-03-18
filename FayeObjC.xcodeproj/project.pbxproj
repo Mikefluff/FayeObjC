@@ -8080,7 +8080,7 @@
 			name = FayeObjCFrameworkTests;
 			productName = FayeObjCTests;
 			productReference = 8D07620516ED29C5002D5F3D /* FayeObjCFrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 		8D07622216ED2ABC002D5F3D /* FayeObjCLibrary */ = {
 			isa = PBXNativeTarget;
@@ -8117,7 +8117,7 @@
 			name = FayeObjCLibraryTests;
 			productName = FayeObjCLibraryTests;
 			productReference = 8D07623216ED2ABC002D5F3D /* FayeObjCLibraryTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productType = "com.apple.product-type.bundle.ocunit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -8444,6 +8444,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCFramework/FayeObjCFramework-Prefix.pch";
 				INFOPLIST_FILE = "FayeObjCFramework/FayeObjCFramework-Info.plist";
+				INSTALL_PATH = "@rpath";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib/SocketRocket/.env\"",
@@ -8465,6 +8466,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCFramework/FayeObjCFramework-Prefix.pch";
 				INFOPLIST_FILE = "FayeObjCFramework/FayeObjCFramework-Info.plist";
+				INSTALL_PATH = "@rpath";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib/SocketRocket/.env\"",
