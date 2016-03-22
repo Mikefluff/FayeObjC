@@ -8440,11 +8440,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "$(INSTALL_PATH)";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCFramework/FayeObjCFramework-Prefix.pch";
 				INFOPLIST_FILE = "FayeObjCFramework/FayeObjCFramework-Info.plist";
 				INSTALL_PATH = "@rpath";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../../../../Frameworks @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib/SocketRocket/.env\"",
@@ -8462,11 +8465,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "$(INSTALL_PATH)";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCFramework/FayeObjCFramework-Prefix.pch";
 				INFOPLIST_FILE = "FayeObjCFramework/FayeObjCFramework-Info.plist";
 				INSTALL_PATH = "@rpath";
+				LD_NO_PIE = NO;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../../../../Frameworks @executable_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/lib/SocketRocket/.env\"",
