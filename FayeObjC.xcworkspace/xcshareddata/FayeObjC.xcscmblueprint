@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3B5ACA45CC7D77DF3EAF73C9A704AE83105ACBC2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3B5ACA45CC7D77DF3EAF73C9A704AE83105ACBC2" : 0,
+    "7009AAFC25681A08A044588DA9EF362BD86C18C2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "BFDEADA0-E9D9-4B07-878B-71D7E403A9FF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3B5ACA45CC7D77DF3EAF73C9A704AE83105ACBC2" : "FayeObjC\/",
+    "7009AAFC25681A08A044588DA9EF362BD86C18C2" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FayeObjC",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FayeObjC.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/pcrawfor\/FayeObjC.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3B5ACA45CC7D77DF3EAF73C9A704AE83105ACBC2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/valoapple\/valo-osx.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7009AAFC25681A08A044588DA9EF362BD86C18C2"
+    }
+  ]
+}
