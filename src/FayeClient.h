@@ -24,11 +24,12 @@
 //  FayeClient.h
 //  FayeObjC
 //
-//#ifdef __MAC_OS_X_VERSION_MAX_ALLOWED
+#ifdef __MAC_OS_X_VERSION_MAX_ALLOWED
 #import <Cocoa/Cocoa.h>
-//#else
-//#import <UIKit/UIKit.h>
-//#endif
+#endif
+#if TARGET_OS_IPHONE
+#import <UIKit/UIKit.h>
+#endif
 
 #import <SocketRocket/SRWebSocket.h>
 

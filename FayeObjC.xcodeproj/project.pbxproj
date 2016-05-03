@@ -7,10 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8D07620716ED29C5002D5F3D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07620616ED29C5002D5F3D /* SenTestingKit.framework */; };
 		8D07620B16ED29C5002D5F3D /* FayeObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0761ED16ED29C5002D5F3D /* FayeObjC.framework */; };
 		8D07622516ED2ABC002D5F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07622416ED2ABC002D5F3D /* Foundation.framework */; };
-		8D07623316ED2ABC002D5F3D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07620616ED29C5002D5F3D /* SenTestingKit.framework */; };
 		8D07623616ED2ABC002D5F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07622416ED2ABC002D5F3D /* Foundation.framework */; };
 		8D07623916ED2ABC002D5F3D /* libFayeObjC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07622316ED2ABC002D5F3D /* libFayeObjC.a */; };
 		8D748B4317584A05008BF25D /* NSString+FayeInflectionSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D748B4117584A05008BF25D /* NSString+FayeInflectionSupport.h */; };
@@ -142,8 +140,7 @@
 		8D0761F316ED29C5002D5F3D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8D0761F416ED29C5002D5F3D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8D0761F516ED29C5002D5F3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8D07620516ED29C5002D5F3D /* FayeObjCFrameworkTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FayeObjCFrameworkTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D07620616ED29C5002D5F3D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D07620516ED29C5002D5F3D /* FayeObjCFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FayeObjCFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D07622316ED2ABC002D5F3D /* libFayeObjC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFayeObjC.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D07622416ED2ABC002D5F3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8D07623216ED2ABC002D5F3D /* FayeObjCLibraryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FayeObjCLibraryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -3464,7 +3461,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D07620B16ED29C5002D5F3D /* FayeObjC.framework in Frameworks */,
-				8D07620716ED29C5002D5F3D /* SenTestingKit.framework in Frameworks */,
 				8DF0559916ED9B2B000A0035 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3482,7 +3478,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D07623916ED2ABC002D5F3D /* libFayeObjC.a in Frameworks */,
-				8D07623316ED2ABC002D5F3D /* SenTestingKit.framework in Frameworks */,
 				8D07623616ED2ABC002D5F3D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3508,7 +3503,7 @@
 			isa = PBXGroup;
 			children = (
 				8D0761ED16ED29C5002D5F3D /* FayeObjC.framework */,
-				8D07620516ED29C5002D5F3D /* FayeObjCFrameworkTests.octest */,
+				8D07620516ED29C5002D5F3D /* FayeObjCFrameworkTests.xctest */,
 				8D07622316ED2ABC002D5F3D /* libFayeObjC.a */,
 				8D07623216ED2ABC002D5F3D /* FayeObjCLibraryTests.octest */,
 			);
@@ -3519,7 +3514,6 @@
 			isa = PBXGroup;
 			children = (
 				8D0761F016ED29C5002D5F3D /* Cocoa.framework */,
-				8D07620616ED29C5002D5F3D /* SenTestingKit.framework */,
 				8D07622416ED2ABC002D5F3D /* Foundation.framework */,
 				8D07623416ED2ABC002D5F3D /* UIKit.framework */,
 				8D0761F216ED29C5002D5F3D /* Other Frameworks */,
@@ -8079,8 +8073,8 @@
 			);
 			name = FayeObjCFrameworkTests;
 			productName = FayeObjCTests;
-			productReference = 8D07620516ED29C5002D5F3D /* FayeObjCFrameworkTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
+			productReference = 8D07620516ED29C5002D5F3D /* FayeObjCFrameworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		8D07622216ED2ABC002D5F3D /* FayeObjCLibrary */ = {
 			isa = PBXNativeTarget;
@@ -8125,6 +8119,7 @@
 		8D0761E416ED29C5002D5F3D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastTestingUpgradeCheck = 0730;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Paul Crawford";
 			};
@@ -8488,16 +8483,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCFramework/FayeObjCFramework-Prefix.pch";
 				INFOPLIST_FILE = "FayeObjCFrameworkTests/FayeObjCFrameworkTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -8505,16 +8498,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FayeObjCFramework/FayeObjCFramework-Prefix.pch";
 				INFOPLIST_FILE = "FayeObjCFrameworkTests/FayeObjCFrameworkTests-Info.plist";
-				OTHER_LDFLAGS = (
-					"-framework",
-					SenTestingKit,
-				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};
