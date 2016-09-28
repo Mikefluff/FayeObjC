@@ -33,12 +33,6 @@
 
 #import <SocketRocket/SRWebSocket.h>
 
-enum _fayeStates {
-  kWebSocketDisconnected,
-  kWebSocketConnected,
-  kFayeDisconnected,
-  kFayeConnected  
-} fayeStates;
 
 typedef void(^FayeClientMessageHandler)(NSDictionary *);
 
