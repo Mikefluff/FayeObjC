@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		491B9A8B1DB775B80073F175 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 491B9A861DB775AE0073F175 /* SocketRocket.framework */; };
 		8D07620B16ED29C5002D5F3D /* FayeObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D0761ED16ED29C5002D5F3D /* FayeObjC.framework */; };
 		8D07622516ED2ABC002D5F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07622416ED2ABC002D5F3D /* Foundation.framework */; };
 		8D07623616ED2ABC002D5F3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D07622416ED2ABC002D5F3D /* Foundation.framework */; };
@@ -48,7 +49,6 @@
 		8DF0558216ED995D000A0035 /* NSString+Serialize.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF03A9216ED9862000A0035 /* NSString+Serialize.m */; };
 		8DF0558316ED996A000A0035 /* FayeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF03A2A16ED90C8000A0035 /* FayeClient.m */; };
 		8DF0558416ED996A000A0035 /* FayeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF03A2C16ED90C8000A0035 /* FayeMessage.m */; };
-		8DF0558716ED9988000A0035 /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DF0555216ED9877000A0035 /* SocketRocket.framework */; };
 		8DF0558816ED99F2000A0035 /* FayeClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF03A2A16ED90C8000A0035 /* FayeClient.m */; };
 		8DF0558916ED99F2000A0035 /* FayeMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF03A2C16ED90C8000A0035 /* FayeMessage.m */; };
 		8DF0558A16ED99F2000A0035 /* NSDate-UTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DF03A7E16ED9862000A0035 /* NSDate-UTC.m */; };
@@ -64,6 +64,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		491B9A851DB775AE0073F175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF047A416ED9875000A0035 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 81D6478D1D2CA78800690609;
+			remoteInfo = "SocketRocket-iOS";
+		};
+		491B9A871DB775AE0073F175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF047A416ED9875000A0035 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D4227621BB4358C000C1A6C;
+			remoteInfo = "SocketRocket-iOS-Dynamic";
+		};
+		491B9A891DB775AE0073F175 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DF047A416ED9875000A0035 /* SocketRocket.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3345DC901C52ACD70083CCB8;
+			remoteInfo = "SocketRocket-tvOS";
+		};
 		8D07620916ED29C5002D5F3D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8D0761E416ED29C5002D5F3D /* Project object */;
@@ -77,13 +98,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 8D07622216ED2ABC002D5F3D;
 			remoteInfo = FayeObjCLibrary;
-		};
-		8DF0554F16ED9877000A0035 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8DF047A416ED9875000A0035 /* SocketRocket.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F6B2082D1450F597009315AF;
-			remoteInfo = SocketRocket;
 		};
 		8DF0555116ED9877000A0035 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -112,13 +126,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = F668C87F153E91210044DBAC;
 			remoteInfo = SocketRocketOSX;
-		};
-		8DF0559316ED99F8000A0035 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 8DF047A416ED9875000A0035 /* SocketRocket.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F6B2082C1450F597009315AF;
-			remoteInfo = SocketRocket;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -3451,7 +3458,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8DF0558716ED9988000A0035 /* SocketRocket.framework in Frameworks */,
+				491B9A8B1DB775B80073F175 /* SocketRocket.framework in Frameworks */,
 				8DF0559816ED9B0A000A0035 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -7816,9 +7823,11 @@
 		8DF047A516ED9875000A0035 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8DF0555016ED9877000A0035 /* libSocketRocket.a */,
+				491B9A861DB775AE0073F175 /* SocketRocket.framework */,
+				491B9A881DB775AE0073F175 /* SocketRocket.framework */,
 				8DF0555216ED9877000A0035 /* SocketRocket.framework */,
-				8DF0555416ED9877000A0035 /* SRWebSocketTests.octest */,
+				491B9A8A1DB775AE0073F175 /* SocketRocket.framework */,
+				8DF0555416ED9877000A0035 /* SocketRocketTests-iOS.xctest */,
 				8DF0555616ED9877000A0035 /* TestChat.app */,
 			);
 			name = Products;
@@ -8087,7 +8096,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				8DF0559416ED99F8000A0035 /* PBXTargetDependency */,
 			);
 			name = FayeObjCLibrary;
 			productName = FayeObjCLibrary;
@@ -8150,11 +8158,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		8DF0555016ED9877000A0035 /* libSocketRocket.a */ = {
+		491B9A861DB775AE0073F175 /* SocketRocket.framework */ = {
 			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libSocketRocket.a;
-			remoteRef = 8DF0554F16ED9877000A0035 /* PBXContainerItemProxy */;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = 491B9A851DB775AE0073F175 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		491B9A881DB775AE0073F175 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = 491B9A871DB775AE0073F175 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		491B9A8A1DB775AE0073F175 /* SocketRocket.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SocketRocket.framework;
+			remoteRef = 491B9A891DB775AE0073F175 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		8DF0555216ED9877000A0035 /* SocketRocket.framework */ = {
@@ -8164,10 +8186,10 @@
 			remoteRef = 8DF0555116ED9877000A0035 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		8DF0555416ED9877000A0035 /* SRWebSocketTests.octest */ = {
+		8DF0555416ED9877000A0035 /* SocketRocketTests-iOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = SRWebSocketTests.octest;
+			path = "SocketRocketTests-iOS.xctest";
 			remoteRef = 8DF0555316ED9877000A0035 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -8304,11 +8326,6 @@
 			isa = PBXTargetDependency;
 			name = SocketRocketOSX;
 			targetProxy = 8DF0558516ED997F000A0035 /* PBXContainerItemProxy */;
-		};
-		8DF0559416ED99F8000A0035 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SocketRocket;
-			targetProxy = 8DF0559316ED99F8000A0035 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
